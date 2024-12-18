@@ -1,14 +1,5 @@
 #!/bin/bash
 
-#Ascii art
- _______   ___________    ____  ___      .__   __. 
-|       \ |   ____\   \  /   / /   \     |  \ |  | 
-|  .--.  ||  |__   \   \/   / /  ^  \    |   \|  | 
-|  |  |  ||   __|   \      / /  /_\  \   |  . `  | 
-|  '--'  ||  |____   \    / /  _____  \  |  |\   | 
-|_______/ |_______|   \__/ /__/     \__\ |__| \__| 
-                                                   
-
 
 # Variabel untuk progres
 PROGRES=("Menambahkan Repository Kartolo" "Melakukan update paket" "Mengonfigurasi netplan" "Menginstal DHCP server" \
