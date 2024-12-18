@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#Ascii art
+ _______   ___________    ____  ___      .__   __. 
+|       \ |   ____\   \  /   / /   \     |  \ |  | 
+|  .--.  ||  |__   \   \/   / /  ^  \    |   \|  | 
+|  |  |  ||   __|   \      / /  /_\  \   |  . `  | 
+|  '--'  ||  |____   \    / /  _____  \  |  |\   | 
+|_______/ |_______|   \__/ /__/     \__\ |__| \__| 
+                                                   
 
 
 # Variabel untuk progres
@@ -111,7 +119,7 @@ else
 fi
 
 # Menambahkan ip route
-ip route add 192.168.200.0/24 via 192.168.18.2
+ip route add 192.168.200.0/24 via 192.168.8.2
 
 # Konfigurasi Cisco
 echo -e "${GREEN}${PROGRES[10]}${NC}"
